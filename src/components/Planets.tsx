@@ -20,13 +20,13 @@ const Planets = () => {
     }
   });
 
-  //target inner width of the window
+w
   const [innerWidth, setInnerWidth] = useState<number>(window.innerWidth);
   window.addEventListener("resize", () => {
     setInnerWidth(window.innerWidth);
   });
 
-  //return different color as value for styling
+
   const ChooseColor = (parameter: number) => {
     let color;
     switch (true) {
